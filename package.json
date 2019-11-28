@@ -1,0 +1,34 @@
+{
+  "name": "google-keep-electron",
+  "version": "1.0.0",
+  "description": "Cross-platform electron-powered desktop Google Keep",
+  "keywords": [
+    "google keep",
+    "electron",
+    "notes",
+    "macos",
+    "windows",
+    "linux"
+  ],
+  "author": "Maxim Shmakov <mvshmakov@mail.ru>",
+  "license": "WTFPL",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mvshmakov/google-keep-electron.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mvshmakov/google-keep-electron/issues"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": "12.13.x",
+    "npm": "6.9.x"
+  },
+  "scripts": {
+    "bootstrap": "npm install",
+    "build": "node ."
+  },
+  "devDependencies": {
+    "nativefier": "^7.7.0"
+  }
+}
