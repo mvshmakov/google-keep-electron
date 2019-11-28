@@ -28,7 +28,7 @@
     "bootstrap": "npm install",
     "build": "node ."
   },
-  "devDependencies": {
+  "dependencies": {
     "nativefier": "^7.7.0"
   }
 }

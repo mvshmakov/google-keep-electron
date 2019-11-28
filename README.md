@@ -3,10 +3,12 @@ Cross-platform (MacOS, Windows, Linux) electron-powered desktop Google Keep appl
 
 Smooth scrolling, caches locally your account information. Enjoy!
 
+Exists solely because of https://github.com/jiahaog/nativefier.
+
 # Requirements
 
-* Node.js >= 12.13.0
-* npm >= 6.9.0
+* `Node.js` >= 12.13.0
+* `npm` >= 6.9.0
 
 # How to build for your system
 
