@@ -15,3 +15,6 @@ Exists solely because of https://github.com/jiahaog/nativefier.
 #### 1) `npm run bootstrap`
 #### 2) `npm run build`
 #### 4) Extract binary from generated `./bin` folder and install as ordinary binary
+
+## Interface:
+![user interface](interface.png)
