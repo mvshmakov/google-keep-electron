@@ -26,7 +26,8 @@
   },
   "scripts": {
     "bootstrap": "npm install",
-    "build": "node ."
+    "build": "node .",
+    "clean": "rm -rf ./bin ./node_modules"
   },
   "dependencies": {
     "nativefier": "^7.7.0"

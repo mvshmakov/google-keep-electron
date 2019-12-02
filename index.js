@@ -8,13 +8,17 @@ require('nativefier')
         icon: './icon.png',
         width: 1280,
         height: 800,
+        minWidth: 600,
+        minHeight: 400,
         showMenuBar: false,
         insecure: false,
         internalUrls: "(?:accounts|keep)\.google\.com/.*",
         honest: false,
         zoom: 1.0,
+        disableDevTools: false,
         singleInstance: true,
         clearCache: false,
+        darwinDarkModeSupport: true,
         fileDownloadOptions: {
             saveAs: true
         },
