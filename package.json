@@ -25,7 +25,7 @@
 		"npm": "6.9.x"
 	},
 	"scripts": {
-		"bootstrap": "npm install",
+		"bootstrap": "npm i && npm run build",
 		"build": "node .",
 		"clean": "rm -rf ./bin",
 		"clean:all": "rm -rf ./bin ./node_modules"
